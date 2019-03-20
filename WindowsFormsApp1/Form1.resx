@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>ENCRYPTION
+
+We first start with our super-increasing sequence, such as {1,2,4,10,20,40} and take the values and multiply by a number n, and take a modulus (m) of a value which is greater than the total (m - such as 120). For n we make sure that there are no common factors with any of the numbers. Let's select an n value of 53, so we get:
+1×53 mod(120) = 53
+2×53 mod(120) = 106
+4×53 mod(120) = 92
+10×53 mod(120) = 50
+20×53 mod(120) = 100
+40×53 mod(120) = 80
+
+So the public key is: ({53,106,92,50,100,80},53,120) and the private key is {1, 2, 4, 10, 20,40}. The public key will be difficult to factor while the private key will be easy. Let's say we want to send a plain text message which is equvalent to following binary number:
+111010 101101 111001
+
+We have six weights so we split into three groups of six weights:
+111010 = 53 + 106 + 92 + 100 = 351
+101101 = 53+ 92 + 50 + 80 = 275
+111001 = 53 + 106 + 92 + 80 = 331
+
+Our cipher text is thus 351,275,331.
+
+DECRYPTION
+
+The two numbers known by the receiver is thus 120 (m - modulus) and 53 (n multiplier).
+
+We need n-1, which is a multiplicative inverse of n mod m, i.e. n(n−1) = 1 mod m. For this we find the inverse of n:
+n-1 = 53-1 mod 120
+(53 x _n) mod 120 = 1 
+So we try values of n-1 in (53 x n-1 mod 120) in order to get a result of 1:
+
+n-1 	Result
+1    	53
+2   	106
+3   	39
+...
+75  	15
+76 	68
+77 	1
+So the inverse is 77. 
+
+The coded message is 351,275,331 and is now easy to calculate the plain text:
+
+351×77 mod(120) = 27 = 111010 (1+2+4+20)
+275×77 mod(120) = 55 = 101101
+331×77 mod(120) = 47 = 111001
+The decoded message in binary is thus:
+
+111010 101101 110001
+which is then translated to equivalent plain text of the binary code.
+
+Example:
+Super increasing: 1,2,4,10,20,40
+n = 53
+m = 120
+Plain text: dzenanselmanovic
+Cipher text is: 0,239,103,50,180,106,0,222,50,53,106,272,180,0,0,222,180,133,156,92,0,53
+
+To decrypt the message above, in decryption part we enter following information
+Cipher text: 0,239,103,50,180,106,0,222,50,53,106,272,180,0,0,222,180,133,156,92,0,53
+n=53
+m=120
+Super increasing: 1,2,4,10,20,40
+and we get plain text: dzenanselmanovic</value>
+  </data>
+</root>
